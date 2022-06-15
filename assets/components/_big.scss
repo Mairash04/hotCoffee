@@ -1,0 +1,66 @@
+.big {
+    margin-top: 43px;
+
+    &__content {
+        display: flex;
+    }
+
+    &__left {
+        padding-left: 63px;
+        padding-right: 66px;
+        background: #F7FAFC;
+    }
+
+    &__title {
+        @include font (700, 40px, );
+        margin-top: 96px;
+    }
+
+    &__description {
+        @include font (400, 16px, $bg-grey);
+        margin-top: 24px;
+        margin-bottom: 31px;
+    }
+
+    &__date {
+        @include font (700, 16px, #4A5568);
+    }
+
+    &__details {
+        @include font (700, 16px, );
+    }
+
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__btn {
+        background:$bg-purple;
+        border-radius: 5px;
+        border:3px solid $border-purple;
+        @include font (700, 16px, $text-white);
+        display: flex;
+        align-items: center;
+        padding: 6px 8px;
+        cursor: pointer;
+        transition: 0.5s;
+        &:hover {
+            background: $text-white;
+            color:$text-purple;
+        }
+
+        &--wrapper {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 31px;
+        }
+
+        &--icon {
+            margin-left: 8px;
+            background:$bg-purple;
+            border-radius: 100%;
+        }
+    }
+
+}
