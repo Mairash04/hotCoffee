@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@import "./assets/helpers/variables";
+@import "./assets/helpers/mixin";
+
+@import "./assets/components/classes";
+@import "./assets/components/header";
+@import "./assets/components/burger";
+@import "./assets/components/hero";
+@import "./assets/components/actual";
+@import "./assets/components/posts";
+@import "./assets/components/big";
+@import "./assets/components/footer";
+@import "./assets/components/banner";
+@import "./assets/components/blog";
+@import "./assets/components/text";
+
+@import "./assets/components/media";
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}

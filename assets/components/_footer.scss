@@ -1,0 +1,19 @@
+.footer {
+    border: 1px solid #E8E8E8;
+    margin-top: 43px;
+    padding: 35px;
+  
+    &__title {
+        @include font(400, 16px, $text-black);
+    }
+    &__span {
+        @include font(700, 16px, $text-black);
+    }
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__icon {
+        margin-left: 35px;
+    }
+}

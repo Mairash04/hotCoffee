@@ -1,0 +1,29 @@
+.header {
+  padding: 36px 0 25px 0;
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__list {
+    display: flex;
+  }
+  &__logo {
+    @include font(700, 20px, $text-black);
+  }
+  &__link {
+    @include font(400, 16px, $text-black);
+    margin-left: 30px;
+  }
+  &__label {
+    display: flex;
+    align-items: center;
+  }
+  &__input {
+    border: none;
+    @include font(400, 16px, $text-grey);
+    &--icon {
+      margin-right: 12px;
+    }
+  }
+}

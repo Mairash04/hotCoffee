@@ -1,0 +1,33 @@
+.actual {
+  margin-top: 39px;
+  &__content {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e2e2e2;
+    box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+    border-radius: 5px;
+    margin-bottom: 43px;
+  }
+  &__left {
+    padding-right: 77px;
+    padding-left: 52px;
+  }
+  &__title {
+    @include font(700, 30px, $text-darkGrey);
+  }
+  &__description {
+    @include font(400, 14px, $text-grey);
+    margin-top: 37px;
+    margin-bottom: 30px;
+  }
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__date {
+    @include font(400, 12px, $text-grey);
+  }
+  &__details {
+    @include font(700, 12px, $text-darkGrey);
+  }
+}

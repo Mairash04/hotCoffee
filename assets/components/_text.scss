@@ -1,0 +1,26 @@
+.text {
+    margin-top: 37px;
+    &__content {
+        max-width: 765px;
+        margin: auto;
+        
+    }
+    &__p {
+        @include font(400, 16px, $text-grey);
+    }
+    &__title {
+        @include font(700, 30px, $text-darkGrey);
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    &__title2 {
+        @include font(700, 30px, $text-darkGrey);
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    &__caption {
+        @include font(600, 22px, $text-darkGrey);
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}
